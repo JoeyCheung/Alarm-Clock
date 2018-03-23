@@ -72,8 +72,6 @@ public class AlarmClockGUI extends Songs{
 		
 			String cmd = e.getActionCommand();
 			if(cmd.equals("setAlarm")) { 
-				Date date = new Date();
-				long diff = date.getTime();
 				long hour = Long.parseLong(tf1.getText());
 				hour = hour * 60;
 				long minute = Long.parseLong(tf2.getText());
