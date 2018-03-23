@@ -57,9 +57,6 @@ public class AlarmClockGUI extends Songs{
 		tf2 = new TextField();
 		tf3 = new TextField();
 		set.addActionListener(handler);
-		tf1.addActionListener(handler);
-		tf2.addActionListener(handler);
-		tf3.addActionListener(handler);
 		panel.add(tf1);
 		panel.add(tf2);
 		panel.add(tf3);
